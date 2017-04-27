@@ -15,7 +15,7 @@ export const IntercomAPI = (...args) => {
 
 export default class Intercom extends Component {
   static propTypes = {
-    appID: PropTypes.string,
+    appID: PropTypes.string.isRequired,
     app_id: PropTypes.string
   };
 
